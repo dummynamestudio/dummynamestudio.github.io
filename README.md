@@ -10,5 +10,8 @@ The website of DummyName Studio, published by GitHub Pages at <https://dummyname
   developer website set in each game's Play Console store listing).
 * `style.css` - shared look.
 
+* `<game>/delete-data.html` - how to request the deletion of the data (Play Console -> Data safety ->
+  "Delete data URL").
+
 To add a game: copy `bouncy/` to a folder named after the game, adapt its privacy policy (the
 services the game uses) and add the game to `index.html`. Pushing to `main` publishes the site.
